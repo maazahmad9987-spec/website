@@ -1,0 +1,66 @@
+body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #505050;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    /* The white box (form container) */
+    .login-box {
+      background-color: #fff;
+      padding: 30px 40px;
+      border-radius: 8px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+      width: 320px;
+    }
+
+    .login-box h2 {
+      margin-bottom: 20px;
+      text-align: center;
+      color: #333;
+    }
+
+    /* Style for input fields */
+    .login-box input[type="text"],
+    .login-box input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    /* Style for the login button */
+    .login-box input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #007BFF;
+      border: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .login-box input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+
+    .login-box .footer {
+      margin-top: 15px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .login-box .footer a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    .login-box .footer a:hover {
+      text-decoration: underline;
+    }
